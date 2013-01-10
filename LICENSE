@@ -1,0 +1,25 @@
+The source code in the subdirectory "engine" is (c) 2000-2013 Benjamin Crowell,
+Kostas Giannakakis, and Cass Everitt, available under the GPL v 2 license or,
+at your option, any later version of that license.
+
+The r3 library by Cass Everitt contains parts that are by Sean Barrett and that
+have been placed into the public domain by him. The remainder of the r3 code, by
+Everitt, is dual licensed under BSD and GPL, as explained in the email below;
+the project as a whole was legally required to be distributed under the GPL
+because it included GPL-licensed code.
+
+-Ben Crowell
+
+=======
+
+Hi Ben,
+
+The code that I wrote has always been available under BSD-license.
+
+Because in early versions of star3map, I used the GPL'd planet-finder code, all the code was available under GPL terms, but
++individually, the source files I wrote could be used with the BSD license.
+
+Newer versions of star3map (now called Space Junk) use none of the original GPL'd code at all.  It has been completely removed,
++and when that was done, I also closed the source.
+
+=========

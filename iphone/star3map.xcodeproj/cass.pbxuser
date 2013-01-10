@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* star3map */ = {
+		activeExec = 0;
+		executables = (
+			43A93153116D06220056E552 /* star3map */,
+		);
+	};
+	28FD14FD0DC6FC130079059D /* EAGLView.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 3857}}";
+			sepNavSelRange = "{2939, 0}";
+			sepNavVisRange = "{2416, 1078}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 43A93153116D06220056E552 /* star3map */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* star3map */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* star3map */,
+			4377F07D113CD31200695161 /* star3free */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 43A93165116D06460056E552 /* Code sense */;
+		executables = (
+			43A93153116D06220056E552 /* star3map */,
+			43A93154116D06220056E552 /* star3free */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1046,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1006,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 294609861;
+			PBXWorkspaceStateSaveDate = 294609861;
+		};
+		perUserProjectItems = {
+			43099847117F8CE500E9585E /* PBXBookmark */ = 43099847117F8CE500E9585E /* PBXBookmark */;
+			435A7E9811722AF4000411FF /* PBXTextBookmark */ = 435A7E9811722AF4000411FF /* PBXTextBookmark */;
+			435A7E9911722AF4000411FF /* PBXTextBookmark */ = 435A7E9911722AF4000411FF /* PBXTextBookmark */;
+			435A7EBC11722FC9000411FF /* PBXTextBookmark */ = 435A7EBC11722FC9000411FF /* PBXTextBookmark */;
+			4384ABEF1172A89B00333B4F /* PBXBookmark */ = 4384ABEF1172A89B00333B4F /* PBXBookmark */;
+			43D150551172A80A00AD936E /* PlistBookmark */ = 43D150551172A80A00AD936E /* PlistBookmark */;
+			43E20AFF117272170045F415 /* PBXTextBookmark */ = 43E20AFF117272170045F415 /* PBXTextBookmark */;
+			43E20B0F117275D10045F415 /* PBXTextBookmark */ = 43E20B0F117275D10045F415 /* PBXTextBookmark */;
+			43E20B3011727BA20045F415 /* PBXTextBookmark */ = 43E20B3011727BA20045F415 /* PBXTextBookmark */;
+			43E20B3111727BA20045F415 /* PBXTextBookmark */ = 43E20B3111727BA20045F415 /* PBXTextBookmark */;
+			43E20B90117284C90045F415 /* PBXTextBookmark */ = 43E20B90117284C90045F415 /* PBXTextBookmark */;
+			43E20B96117284D90045F415 /* PBXTextBookmark */ = 43E20B96117284D90045F415 /* PBXTextBookmark */;
+			43E20C6311729B330045F415 /* PBXTextBookmark */ = 43E20C6311729B330045F415 /* PBXTextBookmark */;
+			43EFE7DD118F61D400D26E63 /* PBXTextBookmark */ = 43EFE7DD118F61D400D26E63 /* PBXTextBookmark */;
+			43EFE7FC118F640100D26E63 /* PBXTextBookmark */ = 43EFE7FC118F640100D26E63 /* PBXTextBookmark */;
+			43EFE7FE118F640100D26E63 /* PlistBookmark */ = 43EFE7FE118F640100D26E63 /* PlistBookmark */;
+			43EFE8151190469600D26E63 /* PlistBookmark */ = 43EFE8151190469600D26E63 /* PlistBookmark */;
+		};
+		sourceControlManager = 43A93164116D06460056E552 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	43099847117F8CE500E9585E /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4384ABE91172A87A00333B4F /* Default-Portrait.png */;
+	};
+	4310BEB8111652A40053107A /* app.cpp */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{1, 134}\";\n            s = 0;\n        },\n                {\n            r = \"{2227, 305}\";\n            s = 0;\n        },\n                {\n            r = \"{2561, 1063}\";\n            s = 0;\n        },\n                {\n            r = \"{3644, 321}\";\n            s = 0;\n        },\n                {\n            r = \"{4007, 208}\";\n            s = 0;\n        },\n                {\n            r = \"{4271, 284}\";\n            s = 0;\n        },\n                {\n            r = \"{4662, 519}\";\n            s = 0;\n        },\n                {\n            r = \"{5266, 290}\";\n            s = 0;\n        },\n                {\n            r = \"{6729, 2323}\";\n            s = 0;\n        },\n                {\n            r = \"{9076, 32}\";\n            s = 0;\n        },\n                {\n            r = \"{9178, 1}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 9260}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1452, 3040}}";
+			sepNavSelRange = "{3250, 0}";
+			sepNavVisRange = "{2659, 910}";
+		};
+	};
+	433C0C9C11400BEF00AF5BC0 /* time.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 1900}}";
+			sepNavSelRange = "{1922, 7}";
+			sepNavVisRange = "{1404, 843}";
+		};
+	};
+	435A7E6111721943000411FF /* satellite.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 4047}}";
+			sepNavSelRange = "{4525, 0}";
+			sepNavVisRange = "{3724, 1400}";
+		};
+	};
+	435A7E9811722AF4000411FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D4F1131B77F00602AC9 /* draw.h */;
+		name = "draw.h: 135";
+		rLen = 55;
+		rLoc = 3606;
+		rType = 0;
+		vrLen = 1720;
+		vrLoc = 2300;
+	};
+	435A7E9911722AF4000411FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D4E1131B77F00602AC9 /* draw.cpp */;
+		name = "draw.cpp: 288";
+		rLen = 0;
+		rLoc = 7694;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 7021;
+	};
+	435A7EBC11722FC9000411FF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D311131B71000602AC9 /* render.h */;
+		name = "render.h: 98";
+		rLen = 0;
+		rLoc = 2842;
+		rType = 0;
+		vrLen = 1448;
+		vrLoc = 1555;
+	};
+	4377F07D113CD31200695161 /* star3free */ = {
+		activeExec = 0;
+		executables = (
+			43A93154116D06220056E552 /* star3free */,
+		);
+	};
+	4377F0B2113CD31200695161 /* star3free-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 249}, {1066, 1324}}";
+		};
+	};
+	4384ABEF1172A89B00333B4F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 433AB15A11173D540024264C /* Default.png */;
+	};
+	43A93153116D06220056E552 /* star3map */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = star3map;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	43A93154116D06220056E552 /* star3free */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = star3free;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	43A93164116D06460056E552 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	43A93165116D06460056E552 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	43D12D301131B71000602AC9 /* render.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 5320}}";
+			sepNavSelRange = "{6946, 0}";
+			sepNavVisRange = "{6360, 1471}";
+		};
+	};
+	43D12D311131B71000602AC9 /* render.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1343, 2166}}";
+			sepNavSelRange = "{2842, 0}";
+			sepNavVisRange = "{2324, 648}";
+		};
+	};
+	43D12D321131B71000602AC9 /* star3map.cpp */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{3852, 1}\";\n            s = 0;\n        },\n                {\n            r = \"{4753, 77}\";\n            s = 0;\n        },\n                {\n            r = \"{4945, 78}\";\n            s = 0;\n        },\n                {\n            r = \"{5127, 1}\";\n            s = 0;\n        },\n                {\n            r = \"{5191, 39}\";\n            s = 0;\n        },\n                {\n            r = \"{5322, 4986}\";\n            s = 0;\n        },\n                {\n            r = \"{10334, 1397}\";\n            s = 0;\n        },\n                {\n            r = \"{11952, 301}\";\n            s = 0;\n        },\n                {\n            r = \"{12363, 151}\";\n            s = 0;\n        },\n                {\n            r = \"{12619, 1382}\";\n            s = 0;\n        },\n                {\n            r = \"{14255, 0}\";\n            s = 0;\n        },\n                {\n            r = \"{14502, 53}\";\n            s = 0;\n        },\n                {\n            r = \"{14728, 785}\";\n            s = 0;\n        },\n                {\n            r = \"{15530, 31}\";\n            s = 0;\n        },\n                {\n            r = \"{15637, 0}\";\n            s = 0;\n        },\n                {\n            r = \"{15859, 53}\";\n            s = 0;\n        },\n                {\n            r = \"{15980, 164}\";\n            s = 0;\n        },\n                {\n            r = \"{16224, 488}\";\n            s = 0;\n        },\n                {\n            r = \"{16776, 178}\";\n            s = 0;\n        },\n                {\n            r = \"{17028, 0}\";\n            s = 0;\n        },\n                {\n            r = \"{17243, 53}\";\n            s = 0;\n        },\n                {\n            r = \"{17332, 304}\";\n            s = 0;\n        },\n                {\n            r = \"{17715, 487}\";\n            s = 0;\n        },\n                {\n            r = \"{18232, 172}\";\n            s = 0;\n        },\n                {\n            r = \"{18479, 155}\";\n            s = 0;\n        },\n                {\n            r = \"{18657, 128}\";\n            s = 0;\n        },\n                {\n            r = \"{18843, 94}\";\n            s = 0;\n        },\n                {\n            r = \"{19162, 366}\";\n            s = 0;\n        },\n                {\n            r = \"{19641, 371}\";\n            s = 0;\n        },\n                {\n            r = \"{23256, 6687}\";\n            s = 0;\n        },\n                {\n            r = \"{30155, 3}\";\n            s = 0;\n        },\n                {\n            r = \"{30196, 62}\";\n            s = 0;\n        },\n                {\n            r = \"{30294, 2889}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 34622}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1452, 7695}}";
+			sepNavSelRange = "{2120, 0}";
+			sepNavVisRange = "{1929, 1484}";
+		};
+	};
+	43D12D331131B71000602AC9 /* star3map.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 1159}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1635}";
+		};
+	};
+	43D12D4E1131B77F00602AC9 /* draw.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 7049}}";
+			sepNavSelRange = "{7694, 0}";
+			sepNavVisRange = "{7021, 633}";
+		};
+	};
+	43D12D4F1131B77F00602AC9 /* draw.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1115, 2774}}";
+			sepNavSelRange = "{3606, 55}";
+			sepNavVisRange = "{2300, 1720}";
+		};
+	};
+	43D12D541131B77F00602AC9 /* image.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1343, 2451}}";
+			sepNavSelRange = "{2530, 0}";
+			sepNavVisRange = "{2027, 1259}";
+		};
+	};
+	43D12D6B1131B77F00602AC9 /* texture.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1343, 5111}}";
+			sepNavSelRange = "{8049, 0}";
+			sepNavVisRange = "{6976, 1405}";
+		};
+	};
+	43D150551172A80A00AD936E /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 4377F0B2113CD31200695161 /* star3free-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cass/dev/r3nd/apps/star3map/iphone/star3free-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	43E20AFF117272170045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 435A7E6111721943000411FF /* satellite.cpp */;
+		name = "satellite.cpp: 155";
+		rLen = 0;
+		rLoc = 4525;
+		rType = 0;
+		vrLen = 1400;
+		vrLoc = 3724;
+	};
+	43E20B0F117275D10045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D331131B71000602AC9 /* star3map.h */;
+		name = "star3map.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1635;
+		vrLoc = 0;
+	};
+	43E20B3011727BA20045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D301131B71000602AC9 /* render.cpp */;
+		name = "render.cpp: 240";
+		rLen = 0;
+		rLoc = 6946;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 6360;
+	};
+	43E20B3111727BA20045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 433C0C9C11400BEF00AF5BC0 /* time.h */;
+		name = "time.h: 68";
+		rLen = 7;
+		rLoc = 1922;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 1404;
+	};
+	43E20B90117284C90045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D6B1131B77F00602AC9 /* texture.cpp */;
+		name = "texture.cpp: 271";
+		rLen = 0;
+		rLoc = 8049;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 6976;
+	};
+	43E20B96117284D90045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D541131B77F00602AC9 /* image.cpp */;
+		name = "image.cpp: 86";
+		rLen = 0;
+		rLoc = 2530;
+		rType = 0;
+		vrLen = 1490;
+		vrLoc = 1821;
+	};
+	43E20C6311729B330045F415 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FD0DC6FC130079059D /* EAGLView.mm */;
+		name = "EAGLView.mm: 112";
+		rLen = 0;
+		rLoc = 2939;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 2416;
+	};
+	43EFE7DD118F61D400D26E63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 43D12D321131B71000602AC9 /* star3map.cpp */;
+		name = "star3map.cpp: 72";
+		rLen = 0;
+		rLoc = 2120;
+		rType = 0;
+		vrLen = 1584;
+		vrLoc = 1908;
+	};
+	43EFE7FC118F640100D26E63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4310BEB8111652A40053107A /* app.cpp */;
+		name = "app.cpp: 249";
+		rLen = 0;
+		rLoc = 6315;
+		rType = 0;
+		vrLen = 932;
+		vrLoc = 5774;
+	};
+	43EFE7FE118F640100D26E63 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* star3map-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cass/dev/r3nd/apps/star3map/iphone/star3map-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	43EFE8151190469600D26E63 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* star3map-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cass/dev/r3nd/apps/star3map/iphone/star3map-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	8D1107310486CEB800E47090 /* star3map-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 94}, {1066, 1084}}";
+		};
+	};
+}
