@@ -27,3 +27,6 @@ the SGP4 source code is not distributed as part of this project. Anyone interest
 in building the project should either consult with Dr. Vallado to clarify the
 licensing or modify the code to eliminate the satellite tracking
 features that depend on it.
+
+If anyone is interested in getting this to build, I suggest that they simply fork the
+github project and go ahead.
