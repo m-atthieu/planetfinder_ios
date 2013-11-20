@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1024" height="1024" id="svg2" version="1.1" inkscape:version="0.48.4 r9939" sodipodi:docname="Icon.svg" inkscape:export-filename="/home/mdesile/Dropbox/Scratch/PlanetFinder/Icon3.png" inkscape:export-xdpi="10.55" inkscape:export-ydpi="10.55">
+  <defs id="defs4">
+    <linearGradient id="linearGradient5376">
+      <stop style="stop-color:#101010;stop-opacity:1;" offset="0" id="stop5378" />
+      <stop style="stop-color:#303030;stop-opacity:1;" offset="1" id="stop5380" />
+    </linearGradient>
+    <linearGradient id="linearGradient3919">
+      <stop style="stop-color:#efe300;stop-opacity:1;" offset="0" id="stop3921" />
+      <stop style="stop-color:#ff9c2d;stop-opacity:1;" offset="1" id="stop3923" />
+    </linearGradient>
+    <radialGradient inkscape:collect="always" xlink:href="#linearGradient3919" id="radialGradient5369" cx="302.16434" cy="268.22318" fx="302.16434" fy="268.22318" r="369.40024" gradientTransform="matrix(1,0,0,0.96893028,0,8.3336181)" gradientUnits="userSpaceOnUse" />
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient5376" id="linearGradient5382" x1="389.32294" y1="475.16699" x2="750.42081" y2="475.16699" gradientUnits="userSpaceOnUse" gradientTransform="translate(-55.310828,30.304577)" />
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3919" id="linearGradient5393" x1="9.708621" y1="512.86279" x2="1012.5657" y2="512.86279" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.49497475" inkscape:cx="578.85671" inkscape:cy="444.54791" inkscape:document-units="px" inkscape:current-layer="layer5" showgrid="false" inkscape:window-width="1024" inkscape:window-height="836" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" showguides="true" inkscape:guide-bbox="true">
+    <sodipodi:guide orientation="1,0" position="0,377.14286" id="guide3133" />
+    <sodipodi:guide orientation="0,1" position="505.71429,0" id="guide3135" />
+    <sodipodi:guide orientation="1,0" position="1023.9286,183.92857" id="guide3137" />
+    <sodipodi:guide orientation="0,1" position="1029.598,1024.0421" id="guide3139" />
+    <sodipodi:guide orientation="1,0" position="511.13719,476.792" id="guide3915" />
+    <sodipodi:guide orientation="0,1" position="701.04587,511.13719" id="guide3917" />
+  </sodipodi:namedview>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g inkscape:label="Reference" inkscape:groupmode="layer" id="layer1" transform="translate(0,-28.362183)" sodipodi:insensitive="true" style="display:none">
+    <image y="28.320084" x="-3.5527137e-15" id="image3111" xlink:href="file:///home/mdesile/Dropbox/Scratch/PlanetFinder/icon72.png" height="1024.0421" width="1023.9286" />
+  </g>
+  <g inkscape:groupmode="layer" id="layer2" inkscape:label="Background" sodipodi:insensitive="true">
+    <rect style="fill:#202020;fill-opacity:1;stroke:none" id="rect3142" width="1023.9286" height="1024.0421" x="0" y="-0.042100001" />
+  </g>
+  <g inkscape:groupmode="layer" id="layer3" inkscape:label="Star 5" sodipodi:insensitive="true" style="display:none">
+    <path sodipodi:type="star" style="fill:url(#radialGradient5369);fill-opacity:1;stroke:none" id="path3913" sodipodi:sides="5" sodipodi:cx="309.10669" sodipodi:cy="298.71048" sodipodi:r1="389.05957" sodipodi:r2="158.1804" sodipodi:arg1="0.88470145" sodipodi:arg2="1.51302" inkscape:flatsided="false" inkscape:rounded="0" inkscape:randomized="0" d="M 555.58391,599.73594 318.24069,456.62695 98.980115,626.14623 161.74177,356.1963 -67.235899,200.05144 208.89616,176.3222 286.64075,-89.69991 394.5381,165.58454 671.56457,157.31869 462.11674,338.8224 z" inkscape:transform-center-x="48.016488" inkscape:transform-center-y="5.2309575" transform="matrix(1.3724315,-0.39375088,0.4061861,1.3304151,15.050911,229.89763)" />
+  </g>
+  <g inkscape:groupmode="layer" id="layer5" inkscape:label="Star 8">
+    <path sodipodi:type="star" style="fill:url(#linearGradient5393);fill-opacity:1;stroke:none" id="path5385" sodipodi:sides="8" sodipodi:cx="511.13718" sodipodi:cy="512.86279" sodipodi:r1="502.01633" sodipodi:r2="204.10538" sodipodi:arg1="0.8337934" sodipodi:arg2="1.2264925" inkscape:flatsided="false" inkscape:rounded="0" inkscape:randomized="0" d="M 848.52811,884.59892 580.0312,704.98936 486.85146,1014.2913 423.99861,697.43222 139.40105,850.25373 319.01061,581.75682 9.7086208,488.57708 326.56775,425.72422 173.74624,141.12667 442.24315,320.73622 535.42289,11.434237 598.27574,328.29336 882.8733,175.47186 703.26375,443.96877 1012.5657,537.14851 695.70661,600.00136 z" transform="matrix(0.7588609,0.67946551,-0.67990953,0.75464622,469.9351,-222.47746)" />
+  </g>
+  <g inkscape:groupmode="layer" id="layer4" inkscape:label="Text">
+    <text xml:space="preserve" style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient5382);fill-opacity:1;stroke:none;font-family:Sans" x="511.13718" y="623.97955" id="text5372" sodipodi:linespacing="125%"><tspan sodipodi:role="line" id="tspan5374" x="511.13718" y="623.97955" style="font-size:344px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:url(#linearGradient5382);fill-opacity:1;font-family:URW Bookman L;-inkscape-font-specification:URW Bookman L">R³</tspan></text>
+  </g>
+</svg>

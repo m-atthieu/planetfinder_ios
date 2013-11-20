@@ -50,55 +50,54 @@
 #include <vector>
 
 namespace star3map {
-
-	extern r3::Vec3f UpVector;
+    extern r3::Vec3f UpVector;
 	
 	
-	// we get a static list of these for each star at
-	// startup, and generate a new list for the solar system
-	// each frame...
-	struct Sprite {
-		std::string name;
-		r3::Vec3f direction;
-		float magnitude;
-		float scale;
-		r3::Vec4f color;
-		r3::Texture2D *tex;
-	};
-	
-	// for constellations
-	struct Lines {
-		std::string name;
-		std::vector< r3::Vec3f > vert;
-		r3::Vec3f center;
-		float limit;
-	};
-			
-	void Clear();
-	void SetColor( const r3::Vec4f & c );
-	
-	void PushTransform();
-	void ClearTransform();
-	void PopTransform();
-	
-	void ApplyTransform( const r3::Matrix4f &m );
-	r3::Matrix4f GetTransform();
-	
-	void DrawQuad(  float radius, const r3::Vec3f & direction  ); 
-	
-	void DrawSprite( r3::Texture2D *tex, r3::Bounds2f bounds );
-	
-	void DrawSprite( r3::Texture2D *tex, float radius, const r3::Vec3f & direction ); 
-
-	r3::OrientedBounds2f StringBounds( const std::string & str, const r3::Vec3f & direction );
-
-	void DrawString( const std::string & str, const r3::Vec3f & direction);
-	void DrawStringAtLocation( const std::string & str, const r3::Vec3f & position, const r3::Matrix4f & rotation );
-	
-	void DrawDebugGrid();
-
-	r3::Vec3f SphericalToCartesian( float rho, float phi, float theta );
-	r3::Vec3f CartesianToSpherical( const r3::Vec3f & c );
+    // we get a static list of these for each star at
+    // startup, and generate a new list for the solar system
+    // each frame...
+    struct Sprite {
+        std::string name;
+        r3::Vec3f direction;
+        float magnitude;
+        float scale;
+        r3::Vec4f color;
+        r3::Texture2D *tex;
+    };
+    
+    // for constellations
+    struct Lines {
+        std::string name;
+        std::vector< r3::Vec3f > vert;
+        r3::Vec3f center;
+        float limit;
+    };
+    
+    void Clear();
+    void SetColor( const r3::Vec4f & c );
+    
+    void PushTransform();
+    void ClearTransform();
+    void PopTransform();
+    
+    void ApplyTransform( const r3::Matrix4f &m );
+    r3::Matrix4f GetTransform();
+    
+    void DrawQuad(  float radius, const r3::Vec3f & direction  ); 
+    
+    void DrawSprite( r3::Texture2D *tex, r3::Bounds2f bounds );
+    
+    void DrawSprite( r3::Texture2D *tex, float radius, const r3::Vec3f & direction ); 
+    
+    r3::OrientedBounds2f StringBounds( const std::string & str, const r3::Vec3f & direction );
+    
+    void DrawString( const std::string & str, const r3::Vec3f & direction);
+    void DrawStringAtLocation( const std::string & str, const r3::Vec3f & position, const r3::Matrix4f & rotation );
+    
+    void DrawDebugGrid();
+    
+    r3::Vec3f SphericalToCartesian( float rho, float phi, float theta );
+    r3::Vec3f CartesianToSpherical( const r3::Vec3f & c );
 }
 
 #endif //__STAR3MAP_RENDER_H__

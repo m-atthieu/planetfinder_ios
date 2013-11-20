@@ -1,5 +1,5 @@
 /*
- *  satellite
+ *  button
  */
 
 /* 
@@ -40,30 +40,48 @@
  Cass Everitt
  */
 
-#ifndef __STAR3MAP_SATELLITE_H__
-#define __STAR3MAP_SATELLITE_H__
+#ifndef __STAR3MAP_BUTTON_H__
+#define __STAR3MAP_BUTTON_H__
 
-#include <string>
-#include <vector>
-#include "r3/linear.h"
+#include "r3/bounds.h"
+#include "r3/texture.h"
+#include "r3/var.h"
 
 namespace star3map {
-	
-	struct Satellite {
-		r3::Vec3f pos;
-		std::string name;
-	};
-	
-	void ReadSatelliteData( const std::string & filename );
-	void ComputeSatellitePositions( std::vector<Satellite> & satellites );
-	
-	// Get the rotation of the earth relative to ECI
-	float GetCurrentEarthPhase();
-	double GetJulianDate();
-
+    class Button {
+    protected:
+        r3::Texture2D *tex;		
+        Button( const std::string & bTextureFilename );
+        bool inputOver;
+    public:
+        virtual ~Button();
+        bool ProcessInput( bool active, int x, int y ); 
+        virtual void Draw();
+        virtual void Pressed() {}
+        r3::Bounds2f bounds;		
+        r3::Vec4f color;
+    };
+    
+    class PushButton : public Button {
+    protected:
+        std::string command;
+    public:
+        PushButton( const std::string & pbTextureFilename, const std::string & pbCommand );		
+        virtual void Pressed();
+    };
+    
+    class ToggleButton : public Button {
+    protected:
+        r3::Var *var;
+    public:
+        ToggleButton( const std::string & tbTextureFilename, const std::string & tbVarName );
+        virtual void Draw();
+        virtual void Pressed();
+        r3::Vec4f onColor;
+        r3::Vec4f offColor;
+    };
 }
 
+#endif // __STAR3MAP_BUTTON_H__
 
 
-
-#endif // __STAR3MAP_SATELLITE_H__

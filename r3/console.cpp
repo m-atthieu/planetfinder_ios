@@ -244,7 +244,7 @@ namespace r3 {
 		} else if ( key == XK_Tab ) {
 			AttemptCompletion( commandLine, cursorPos );
 		} else if ( key >= 0x20 && key <= 0x7f ){ // printable characters
-			char c[2] = { key, 0 };
+			char c[2] = { (char) key, 0 };
 			commandLine.insert( cursorPos, c );
 			cursorPos++;
 		}

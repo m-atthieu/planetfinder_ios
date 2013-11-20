@@ -49,14 +49,13 @@
 
 namespace star3map {
 	
-	struct Constellation {
-		std::string name;
-		std::vector< int > indexes; // pairs of hipNum indexes form a line segment
-	};
-	
-	void ReadConstellations( const std::string & filename, std::vector<Constellation> & list );
-	
+    struct Constellation {
+        std::string name;
+        std::vector< int > indexes; // pairs of hipNum indexes form a line segment
+    };
+    
+    void ReadConstellations( const std::string & filename, std::vector<Constellation> & list );
+    
 }
-
 
 #endif // __STAR3MAP_CONSTELLATIONS_H__

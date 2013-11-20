@@ -51,36 +51,36 @@ using namespace r3;
 
 namespace star3map {
 
-	void ReadStarList( const string & filename, vector<Star> & list ) {
-		list.clear();
-		File * file = FileOpenForRead( filename );
-		while ( file->AtEnd() == false ) {
-			string line = file->ReadLine();
-			vector< Token > tokens = TokenizeString( line.c_str() );
-			if ( ( tokens.size() == 6 ) &&
-				tokens[0].type == TokenType_Number &&  // HIP number
-				tokens[1].type == TokenType_String &&  // common name
-				tokens[2].type == TokenType_Number &&  // magnitude
-				tokens[3].type == TokenType_Number &&  // right ascension
-				tokens[4].type == TokenType_Number &&  // declination
-				tokens[5].type == TokenType_Number     // color index
-				) {
-				Star s;
-				s.hipnum = (int)tokens[0].valNumber;
-				s.name = tokens[1].valString;
-				s.mag = tokens[2].valNumber;
-				s.ra = tokens[3].valNumber / 12.0f;
-				if ( s.ra > 1.0 ) {
-					s.ra -= 2.0f;
-				}
-				s.ra *= 180.0f;
-				s.dec = tokens[4].valNumber;
-				s.colorIndex = tokens[5].valNumber;
-				list.push_back( s );
-			}
-		}
-		Output( "Read %d stars from %s.", (int)list.size(), filename.c_str() );
-		delete file;
-	}
-
+    void ReadStarList( const string & filename, vector<Star> & list ) {
+        list.clear();
+        File * file = FileOpenForRead( filename );
+        while ( file->AtEnd() == false ) {
+            string line = file->ReadLine();
+            vector< Token > tokens = TokenizeString( line.c_str() );
+            if ( ( tokens.size() == 6 ) &&
+                 tokens[0].type == TokenType_Number &&  // HIP number
+                 tokens[1].type == TokenType_String &&  // common name
+                 tokens[2].type == TokenType_Number &&  // magnitude
+                 tokens[3].type == TokenType_Number &&  // right ascension
+                 tokens[4].type == TokenType_Number &&  // declination
+                 tokens[5].type == TokenType_Number     // color index
+                 ) {
+                Star s;
+                s.hipnum = (int)tokens[0].valNumber;
+                s.name = tokens[1].valString;
+                s.mag = tokens[2].valNumber;
+                s.ra = tokens[3].valNumber / 12.0f;
+                if ( s.ra > 1.0 ) {
+                    s.ra -= 2.0f;
+                }
+                s.ra *= 180.0f;
+                s.dec = tokens[4].valNumber;
+                s.colorIndex = tokens[5].valNumber;
+                list.push_back( s );
+            }
+        }
+        Output( "Read %d stars from %s.", (int)list.size(), filename.c_str() );
+        delete file;
+    }
+    
 }

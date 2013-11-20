@@ -50,82 +50,79 @@ using namespace r3;
 using namespace std;
 
 namespace star3map {
-	
-	Button::Button( const std::string & bTextureFilename ) 
+    Button::Button( const std::string & bTextureFilename ) 
 	: tex( NULL ), inputOver( false ), color( 1, 1, 1, 1 )  {
-		tex = CreateTexture2DFromFile( bTextureFilename, TextureFormat_RGBA );
-		bounds.Min() = Vec2f( 0, 0 );
-		bounds.Max() = Vec2f( (float)tex->Width(), (float)tex->Height() );
-	}
+        tex = CreateTexture2DFromFile( bTextureFilename, TextureFormat_RGBA );
+        bounds.Min() = Vec2f( 0, 0 );
+        bounds.Max() = Vec2f( (float)tex->Width(), (float)tex->Height() );
+    }
+    
+    Button::~Button() {
+        delete tex;
+    }
+    
+    void Button::Draw() {
+        Vec4f c = color;
+        if ( inputOver ) {
+            SetColor( c );
+        } else {
+            c *= .85f;
+            SetColor( c );			
+        }
+        star3map::DrawSprite( tex, bounds );
+    }
+    
+    bool Button::ProcessInput( bool active, int x, int y ) {
+        if ( bounds.IsInside( Vec2f( (float)x, (float)y ) ) ) {
+            inputOver = active;
+            if ( active == false ) {
+                Pressed();
+            }
+            return true;
+        } else {
+            inputOver = false;
+            return false;
+        }
 	
-	Button::~Button() {
-		delete tex;
-	}
-
-	void Button::Draw() {
-		Vec4f c = color;
-		if ( inputOver ) {
-			SetColor( c );
-		} else {
-			c *= .85f;
-			SetColor( c );			
-		}
-		star3map::DrawSprite( tex, bounds );
-	}
-	
-	bool Button::ProcessInput( bool active, int x, int y ) {
-		if ( bounds.IsInside( Vec2f( (float)x, (float)y ) ) ) {
-			inputOver = active;
-			if ( active == false ) {
-				Pressed();
-			}
-			return true;
-		} else {
-			inputOver = false;
-			return false;
-		}
-		
-	}
-	
-	PushButton::PushButton( const string & pbTextureFilename, const string & pbCommand ) 
+    }
+    
+    PushButton::PushButton( const string & pbTextureFilename, const string & pbCommand ) 
 	: Button( pbTextureFilename ), command( pbCommand ) {
-	}
-	
-	void PushButton::Pressed() {
-		ExecuteCommand( command.c_str() );
-	}
-	
-	ToggleButton::ToggleButton( const string & tbTextureFilename, const string & tbVarName ) 
+    }
+    
+    void PushButton::Pressed() {
+        ExecuteCommand( command.c_str() );
+    }
+    
+    ToggleButton::ToggleButton( const string & tbTextureFilename, const string & tbVarName ) 
 	: Button( tbTextureFilename ), onColor( .4f, 1.f, .4f, .9f ), offColor( .65f, .65f, .65f, .75f ) {
-		var = FindVar( tbVarName.c_str() );
-		float f;
-		if ( StringToFloat( var->Get(), f ) ) {
+        var = FindVar( tbVarName.c_str() );
+        float f;
+        if ( StringToFloat( var->Get(), f ) ) {
+            color = ( f != 0 ) ? onColor : offColor;
+        }
+    }
+    
+    void ToggleButton::Draw() {
+        float f;
+        if ( StringToFloat( var->Get(), f ) ) {
 			color = ( f != 0 ) ? onColor : offColor;
-		}
-	}
+        }
+        Button::Draw();
+    }
+    
+    void ToggleButton::Pressed() {
+        if ( var == NULL ) {
+            return;
+        }
+        char cmd[128];
+        r3Sprintf( cmd, "toggle %s", var->Name().Str().c_str() );
+        ExecuteCommand( cmd );
 	
-	void ToggleButton::Draw() {
-		float f;
-		if ( StringToFloat( var->Get(), f ) ) {
-			color = ( f != 0 ) ? onColor : offColor;
-		}
-		Button::Draw();
-	}
-	
-	void ToggleButton::Pressed() {
-		if ( var == NULL ) {
-			return;
-		}
-		char cmd[128];
-		r3Sprintf( cmd, "toggle %s", var->Name().Str().c_str() );
-		ExecuteCommand( cmd );
-		
-		float f;
-		if ( StringToFloat( var->Get(), f ) ) {
-			color = ( f != 0 ) ? onColor : offColor;
-		}
-		
-	}
-	
+        float f;
+        if ( StringToFloat( var->Get(), f ) ) {
+            color = ( f != 0 ) ? onColor : offColor;
+        }
+    }
 }
 

@@ -1,5 +1,5 @@
 /*
- *  starlist
+ *  satellite
  */
 
 /* 
@@ -40,25 +40,26 @@
  Cass Everitt
  */
 
-#ifndef __STAR3MAP_STARLIST_H__
-#define __STAR3MAP_STARLIST_H__
+#ifndef __STAR3MAP_SATELLITE_H__
+#define __STAR3MAP_SATELLITE_H__
 
 #include <string>
 #include <vector>
+#include "r3/linear.h"
 
 namespace star3map {
 	
-	struct Star {
-		int hipnum;
-		float mag;
-		float ra;
-		float dec;
-		float colorIndex;
-		std::string name;
-	};
-	
-	void ReadStarList( const std::string & filename, std::vector<Star> & list );
-	
+    struct Satellite {
+        r3::Vec3f pos;
+        std::string name;
+    };
+    
+    //void ReadSatelliteData( const std::string & filename );
+    //void ComputeSatellitePositions( std::vector<Satellite> & satellites );
+    
+    // Get the rotation of the earth relative to ECI
+    float GetCurrentEarthPhase();
+    double GetJulianDate();
 }
 
-#endif //__STAR3MAP_STARLIST_H__
+#endif // __STAR3MAP_SATELLITE_H__

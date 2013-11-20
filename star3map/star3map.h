@@ -48,16 +48,15 @@
 
 namespace star3map {
 
-	void Display();	
-	bool ProcessInput( bool active, int x, int y );
-	
-	inline float ModuloRange( float f, float lower, float upper ) {
-		float delta = upper - lower;
-		float fndiff = ( f - lower ) / delta;
-		float fnfrac = fndiff - floor( fndiff );
-		return fnfrac * delta + lower;
-	}
-	
+    void Display();	
+    bool ProcessInput( bool active, int x, int y );
+    
+    inline float ModuloRange( float f, float lower, float upper ) {
+        float delta = upper - lower;
+        float fndiff = ( f - lower ) / delta;
+        float fnfrac = fndiff - floor( fndiff );
+        return fnfrac * delta + lower;
+    }
 }
 
 #endif //__STAR3MAP_STAR3MAP_H__
